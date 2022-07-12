@@ -10,7 +10,16 @@
 
 
 
+// module: addition a + b |  test:
+// output(add(2,3));
+// output(add(2,-3));
+// output(add(2.1,3.2));
+// output(add(2,0));
 
+function add(a,b) {
+    return a + b;
+    
+}
 
  
 //4. Ausgabe in Konsole : check
