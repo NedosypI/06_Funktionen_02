@@ -8,18 +8,31 @@
 4. Ausgabe in Konsole : check
 */
 
+// module: division  a / b |  test:
+output(divide(2,3));
+output(divide(2,-3));
+output(divide(2.1,3.2));
+output(divide(2,0));
+
+function divide(a,b) { 
+
+    if (b==0) {
+        return "Division by 0 not possible!";
+    } 
+       return a / b 
+    
+}
+
+
 // module: multiplication  a * b |  test:
-output(multiply(2,3));
-output(multiply(2,-3));
-output(multiply(2.1,3.2));
-output(multiply(2,0));
+// output(multiply(2,3));
+// output(multiply(2,-3));
+// output(multiply(2.1,3.2));
+// output(multiply(2,0));
 
 function multiply(a,b) {
     return a * b;  
 }
-
-
-
 
 // module: subtraction a - b |  test:
 // output(subtract(2,3));
@@ -31,8 +44,6 @@ function subtract(a,b) {
     return a - b;  
 }
 
-
-
 // module: addition a + b |  test:
 // output(add(2,3));
 // output(add(2,-3));
@@ -41,10 +52,8 @@ function subtract(a,b) {
 
 function add(a,b) {
     return a + b;
-    
 }
 
- 
 //4. Ausgabe in Konsole : check
 // module: console output | test: 
 // output("hello");
