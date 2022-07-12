@@ -8,6 +8,19 @@
 4. Ausgabe in Konsole : check
 */
 
+// module: multiplication  a * b |  test:
+output(multiply(2,3));
+output(multiply(2,-3));
+output(multiply(2.1,3.2));
+output(multiply(2,0));
+
+function multiply(a,b) {
+    return a * b;  
+}
+
+
+
+
 // module: subtraction a - b |  test:
 // output(subtract(2,3));
 // output(subtract(2,-3));
@@ -15,8 +28,7 @@
 // output(subtract(2,0));
 
 function subtract(a,b) {
-    return a - b;
-    
+    return a - b;  
 }
 
 
