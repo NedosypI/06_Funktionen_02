@@ -99,12 +99,16 @@ function add(a,b) {
 }
 
 //4. Ausgabe in Konsole : check
-// module: console output | test: 
+// module: console output | test:
 // output("hello");
 // output(20);
 function output(inputData) {
-    console.log(inputData)
-}
+    if (typeof inputData == "number") {
+        console.log("The result is: " + inputData);
+    } else {
+        console.log("ERROR: " + inputData);
+    }
+ }
 
 // TO DO: 
 // output(20) ---> "The result is: " 20
