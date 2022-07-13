@@ -24,12 +24,12 @@ function getNumber(numTxt) {
 
 // module: input operator | Test:
 // output(getOp());
-
+output(getOp());
 function getOp() {
     const displayStr ="Bitte korrekten Operator (+ | - | * | :) eingeben";
-    let op = prompt(displayStr); // ???
+    let op = prompt(displayStr); 
     return isOpValid();
-    // return op;
+    return op;
 }
 
 // module: check operator | Test:
@@ -56,7 +56,7 @@ function isOpValid(op) {
 // }
 
 //2nd variant
-return op == "+" || op == "-" || op == "*" || op == ":";
+// return op == "+" || op == "-" || op == "*" || op == ":";
 }
 
 // module: calculator | tests:
